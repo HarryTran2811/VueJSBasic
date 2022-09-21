@@ -69,7 +69,7 @@ Vue.createApp({
       this.count = this.count + params;
     },
     hanldeSubmit() {
-      alert("submit thành công");
+      alert("submit successfully");
     },
     handleLogin() {
       console.log("handleLogin");
@@ -90,14 +90,14 @@ Vue.createApp({
   data() {
     return {
       count: 0,
-      lastName: "Nguyễn",
-      firstName: "Phong Hào",
+      lastName: "Harry",
+      firstName: "Lionel",
       fullDataName: "",
     };
   },
   /**
-   * watch dùng để xử lý :
-   *    - theo dõi 1 data duy nhất
+   * watch use to:
+   *    - monitor 1 unique data
    */
   watch: {
     count(newValue, oldValue) {
@@ -115,8 +115,8 @@ Vue.createApp({
     },
   },
   /**
-   * computed dùng để xử lý :
-   *    - tính toán nhiều data và cho ra một kết quả để hiển thị lên màn hình
+   * computed use to process:
+   *    - calculate various data và display the result for the user
    */
   computed: {
     fullName() {
@@ -125,9 +125,9 @@ Vue.createApp({
     },
   },
   /**
-   * methods dùng để xử lý :
-   *    - envents
-   *    - function ( tính năng trên trang web )
+   * methods use to process:
+   *    - events
+   *    - function ( web app features )
    */
   methods: {
     // getFullName() {
@@ -192,7 +192,7 @@ Vue.createApp({
             "https://static2.yan.vn/YanNews/2167221/202107/163646839_151261790203234_4588702925784176269_n-980bbe54.jpg",
         },
         {
-          name: "Harry",
+          name: "Song Ji Hyo",
           image:
             "https://static2.yan.vn/YanNews/2167221/202107/163646839_151261790203234_4588702925784176269_n-980bbe54.jpg",
         },
